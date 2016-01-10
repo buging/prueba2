@@ -1,0 +1,17 @@
+%/{
+	#include
+} %/
+
+HoraD [0-2]
+HoraU [1-9]
+MinutoD [0-5]
+MinutoU [0-9]
+Horario ["Am"|"FM"]
+
+
+%
+(1{HoraD}|{HoraU}):{MinutoD}{MinutoU}{Horario}
+%
+
+lex ayudantia.l
+gcc lex.yy.c

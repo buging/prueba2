@@ -1,0 +1,12 @@
+git init #te crea un repositorio
+#subimos los archivos al repositorio anterior
+git add . #agregamos todos los archivos al repositorio
+git add *.c #agregamos tan solo los archivos con extension .c
+git add README #agregamos el archivo README
+git commit -m 'primera version del programa' #se agrega la primera version
+git push #subimos los archivos al servidor
+
+#si enves de crear un repositorio e quiere clonar se realiza con
+git clone  git://github.com/buging #clona el repositorio
+git clone  git://github.com/buging  nombre _propio#clona el repositorio pero con un nombre propio
+
